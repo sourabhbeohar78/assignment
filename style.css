@@ -1,0 +1,74 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    background-image: linear-gradient(to bottom, #f0f5f9, #e6e8f0);
+  background-attachment: fixed; /* Ensures the background scrolls with the content */
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  #assignment>h2{
+    width: 300px;
+    text-align: center;
+    background: transparent;
+    font-size: 34px;
+    color: white;
+    font-weight: 600;
+  }
+  
+  
+  /* Custom Background Image */
+  .img-fluid {
+    background-image: url('images/bg11.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  /* Title Styles */
+  .bgimage {
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  /* Card Styles */
+  .service-card {
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .service-card:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Image and Text Styles */
+  .service-card img {
+    width: 64px;
+    height: 64px;
+    object-fit: cover;
+    outline: 2px solid black;
+  }
+  
+  .service-card h3 {
+    font-size: 1.25rem;
+    font-weight: bold;
+  }
+  
+  .service-card p {
+    font-size: 1rem;
+    color: #6b7280;
+  }
+  
+  .service-card a {
+    font-size: 1rem;
+    color: #3b82f6;
+    text-decoration: none;
+  }
+  
+  .service-card a:hover {
+    text-decoration: underline;
+  }
+  
